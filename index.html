@@ -16,25 +16,41 @@
             </section>
         </div>
         <div class="content">
-            <div class="trend-creator">
+            <form class="trend-creator">
                 <div class="trend-creator-top">
                 <label for="new-trend">Enter your new trend!</label>
-                <input type="text" id="new-trend" name="new-trend" placeholder="And the name of the trend is..."/>
+                <input 
+                    type="text" 
+                    id="new-trend" 
+                    name="new-trend" 
+                    placeholder="And the name of the trend is..." 
+                    required minlength="10" 
+                    maxlength="20"/>
                 </div>
                 <div class="trend-creator-bottom">
                 <label for="trend-description">Describe your new trend here:</label>
-                <input type="text" id="trend-description" name="trend-description" placeholder="Keep it neat - max 5 sentences"/>
+                <textarea 
+                    type="text" 
+                    id="trend-description" 
+                    name="trend-description" 
+                    placeholder="Keep it neat - max 5 sentences" 
+                    maxlength="300" 
+                    required>
+                </textarea>
+                <button class="submit">Submit</button>
                 </div>
-            </div>
+            </form>
             <div class="trends-tiles">
-                <div class="tile1"><div class="text1">Russia and Ukraine war end</div></div>
-                <div class="tile2"><div class="text2">The downfall of China</div></div>
+                <div class="tile1"><div class="text1">Russia / Ukraine war result</div></div>
+                <div class="tile2"><div class="text2">China downfall</div></div>
                 <div class="tile3"><div class="text3">Teenage psychiatry surge</div></div>
                 <div class="tile4"><div class="text4">Water business</div></div>
             </div>
         </div>
         <div class="footer">
+            <div class="copyrights">
             All rights reserved &#169 Piotr Budzy&#324ski Warsaw 2023
+            </div>
         </div>
     </main>
 </body>
