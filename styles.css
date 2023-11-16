@@ -1,0 +1,70 @@
+* {
+    font-family: sans-serif;
+}
+
+.hero {
+    position: sticky;
+    background-color: aquamarine;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    background-color: aquamarine;
+    width: 800px;
+    min-width: 200px;
+}
+
+.navbar button {
+    height: 100px;
+    width: 270px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.content {
+    display: flex;
+    height: 1200px;
+    min-height: 200px;
+}
+
+.trend-creator {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    min-height: 600px;
+}
+
+.trend-creator-top, .trend-creator-bottom {
+    display: flex;
+    flex-direction: column;
+}
+
+.trends-tiles {
+    flex: auto;
+    max-width: 1300px;
+    display: flex;
+    justify-content: center;
+    align-content: flex-start;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+
+.trends-tiles > div {
+    width: 500px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+}
+
+.footer {
+    text-align: center;
+}
