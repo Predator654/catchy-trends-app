@@ -20,13 +20,29 @@
     font-family: sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 50px;
+}
+
 .hero {
     position: sticky;
+    top: 0;
     background-color: #595F62;
     min-height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 90%;
 }
 
 .navbar {
@@ -138,6 +154,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
 }
 
 }
